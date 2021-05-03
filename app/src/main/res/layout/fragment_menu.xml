@@ -10,54 +10,32 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_width="162dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="32dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="265dp"
-        android:layout_height="56dp"
-        android:text="Light Game!"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="350dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="265dp"
-        android:layout_height="56dp"
-        android:text="Conecta 4"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="452dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="265dp"
-        android:layout_height="56dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="557dp" />
-
-    <Button
+    <ImageButton
         android:id="@+id/button4"
-        android:layout_width="165dp"
-        android:layout_height="120dp"
+        android:layout_width="157dp"
+        android:layout_height="80dp"
+        android:background="@drawable/botonsalir"
         android:text="Salir"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="696dp" />
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="737dp" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button5"
-        android:layout_width="165dp"
-        android:layout_height="120dp"
+        android:layout_width="126dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ranking"
         android:text="Ranking"
         tools:layout_editor_absoluteX="279dp"
-        tools:layout_editor_absoluteY="696dp" />
+        tools:layout_editor_absoluteY="748dp" />
 
     <TextView
         android:id="@+id/textojuegos"
@@ -66,6 +44,34 @@
         android:text="Juegos"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="254dp" />
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="236dp"
+        android:layout_height="136dp"
+        android:background="@drawable/conecta4"
+        android:text="Conecta 4"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="236dp"
+        android:layout_height="136dp"
+        android:background="@drawable/damas"
+        android:text="Damas chinas"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="236dp"
+        android:layout_height="136dp"
+        android:background="@drawable/conecta4"
+        android:text="Light Game!"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="213dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
