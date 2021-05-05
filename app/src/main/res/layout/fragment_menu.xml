@@ -23,55 +23,71 @@
         android:id="@+id/button4"
         android:layout_width="157dp"
         android:layout_height="80dp"
+        android:layout_marginBottom="36dp"
         android:background="@drawable/botonsalir"
         android:text="Salir"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="737dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/button5"
         android:layout_width="126dp"
         android:layout_height="60dp"
+        android:layout_marginEnd="48dp"
         android:background="@drawable/ranking"
         android:text="Ranking"
-        tools:layout_editor_absoluteX="279dp"
-        tools:layout_editor_absoluteY="748dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
 
     <TextView
         android:id="@+id/textojuegos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:text="Juegos"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="157dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/button2"
         android:layout_width="236dp"
         android:layout_height="136dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/conecta4"
         android:text="Conecta 4"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/button3"
         android:layout_width="236dp"
         android:layout_height="136dp"
+        android:layout_marginBottom="192dp"
         android:background="@drawable/damas"
         android:text="Damas chinas"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="516dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/button"
         android:layout_width="236dp"
         android:layout_height="136dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/conecta4"
         android:text="Light Game!"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="213dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
