@@ -15,6 +15,7 @@ import androidx.navigation.Navigation;
 public class Login extends Fragment {
 
     Button botonLogin;
+    Button crearCuenta;
     NavController navController;
 
     @Override
@@ -31,6 +32,6 @@ public class Login extends Fragment {
 
         botonLogin = view.findViewById(R.id.botonlogin);
 
-//        botonLogin.setOnClickListener(view1 -> navController.navigate(R.id.action_login_to_menu));
+        botonLogin.setOnClickListener(view1 -> navController.navigate(R.id.action_login_to_menu));
     }
 }
