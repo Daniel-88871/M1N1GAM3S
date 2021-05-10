@@ -57,6 +57,17 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
+        android:id="@+id/button"
+        android:layout_width="236dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/conecta4"
+        android:text="Light Game!"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
         android:id="@+id/button2"
         android:layout_width="236dp"
         android:layout_height="136dp"
@@ -71,23 +82,12 @@
         android:id="@+id/button3"
         android:layout_width="236dp"
         android:layout_height="136dp"
-        android:layout_marginBottom="192dp"
+        android:layout_marginBottom="176dp"
         android:background="@drawable/damas"
         android:text="Damas chinas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:id="@+id/button"
-        android:layout_width="236dp"
-        android:layout_height="136dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/conecta4"
-        android:text="Light Game!"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

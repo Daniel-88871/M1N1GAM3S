@@ -20,7 +20,7 @@ public class Login extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_menu, container, false);
+        return inflater.inflate(R.layout.fragment_login, container, false);
     }
 
     @Override
@@ -31,11 +31,6 @@ public class Login extends Fragment {
 
         botonLogin = view.findViewById(R.id.botonlogin);
 
-        botonLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_login_to_menu);
-            }
-        });
+//        botonLogin.setOnClickListener(view1 -> navController.navigate(R.id.action_login_to_menu));
     }
 }

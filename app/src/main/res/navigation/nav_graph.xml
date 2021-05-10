@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_menu_to_ranking"
             app:destination="@id/ranking" />
+        <action
+            android:id="@+id/action_menu_to_conecta4"
+            app:destination="@id/conecta4" />
     </fragment>
     <fragment
         android:id="@+id/ranking"
@@ -36,4 +39,9 @@
         android:name="com.example.m1n1games.CrearCuenta"
         android:label="fragment_crear_cuenta"
         tools:layout="@layout/fragment_crear_cuenta" />
+    <fragment
+        android:id="@+id/conecta4"
+        android:name="com.example.m1n1games.Conecta4"
+        android:label="fragment_conecta4"
+        tools:layout="@layout/fragment_conecta4" />
 </navigation>
