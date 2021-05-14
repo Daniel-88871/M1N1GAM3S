@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/login">
+    app:startDestination="@id/bienvenida">
 
     <fragment
         android:id="@+id/login"
@@ -28,6 +28,15 @@
         <action
             android:id="@+id/action_menu_to_conecta4"
             app:destination="@id/conecta4" />
+        <action
+            android:id="@+id/action_menu_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_menu_to_lightsOut"
+            app:destination="@id/lightsOut" />
+        <action
+            android:id="@+id/action_menu_to_damasChinas"
+            app:destination="@id/damasChinas" />
     </fragment>
     <fragment
         android:id="@+id/ranking"
@@ -48,5 +57,19 @@
         android:id="@+id/bienvenida"
         android:name="com.example.m1n1games.Bienvenida"
         android:label="fragment_bienvenida"
-        tools:layout="@layout/fragment_bienvenida" />
+        tools:layout="@layout/fragment_bienvenida" >
+        <action
+            android:id="@+id/action_bienvenida_to_login2"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/lightsOut"
+        android:name="com.example.m1n1games.LightsOut"
+        android:label="fragment_lights_out"
+        tools:layout="@layout/fragment_lights_out" />
+    <fragment
+        android:id="@+id/damasChinas"
+        android:name="com.example.m1n1games.DamasChinas"
+        android:label="fragment_damas_chinas"
+        tools:layout="@layout/fragment_damas_chinas" />
 </navigation>

@@ -14,7 +14,11 @@ import androidx.navigation.Navigation;
 
 public class Menu extends Fragment {
 
+    Button botonLight;
     Button botonConecta4;
+    Button botonDamas;
+    Button botonSalir;
+    Button botonRanking;
     NavController navController;
 
     @Override
@@ -29,13 +33,16 @@ public class Menu extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonConecta4 = view.findViewById(R.id.conecta4);
+        botonLight = view.findViewById(R.id.botonlightsout);
+        botonConecta4 = view.findViewById(R.id.botonconecta4);
+        botonDamas = view.findViewById(R.id.botondamas);
+        botonSalir = view.findViewById(R.id.botonsalir);
+        botonRanking = view.findViewById(R.id.botonranking);
 
-        botonConecta4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_menu_to_conecta4);
-            }
-        });
+        botonLight.setOnClickListener(view1 -> navController.navigate(R.id.action_menu_to_lightsOut));
+        botonConecta4.setOnClickListener(view1 -> navController.navigate(R.id.action_menu_to_conecta4));
+        botonDamas.setOnClickListener(view1 -> navController.navigate(R.id.action_menu_to_damasChinas));
+        botonSalir.setOnClickListener(view1 -> navController.navigate(R.id.action_menu_to_login));
+        botonRanking.setOnClickListener(view1 -> navController.navigate(R.id.action_menu_to_ranking));
     }
 }

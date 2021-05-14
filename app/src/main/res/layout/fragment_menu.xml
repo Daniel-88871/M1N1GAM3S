@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/logomenu"
         android:layout_width="146dp"
         android:layout_height="95dp"
         android:layout_marginTop="32dp"
@@ -27,61 +27,61 @@
         android:text="Juegos"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/botonlightsout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/button"
+        android:id="@+id/botonlightsout"
         android:layout_width="236dp"
         android:layout_height="136dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/conecta4"
         android:text="Light Game!"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/botonconecta4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/button4"
+        android:id="@+id/botonsalir"
         android:layout_width="146dp"
         android:layout_height="66dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/exit"
         android:text="Salir"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintEnd_toStartOf="@+id/botonranking"
+        app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/button5"
+        android:id="@+id/botonranking"
         android:layout_width="146dp"
         android:layout_height="66dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginEnd="40dp"
         android:background="@drawable/ranking"
         android:text="Ranking"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972" />
+        app:layout_constraintVertical_bias="0.975" />
 
     <ImageButton
-        android:id="@+id/button2"
+        android:id="@+id/botonconecta4"
         android:layout_width="236dp"
         android:layout_height="136dp"
         android:layout_marginBottom="28dp"
         android:background="@drawable/conecta4"
         android:text="Conecta 4"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/botondamas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/button3"
+        android:id="@+id/botondamas"
         android:layout_width="236dp"
         android:layout_height="136dp"
         android:layout_marginBottom="120dp"
