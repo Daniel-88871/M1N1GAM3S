@@ -12,7 +12,11 @@
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_login_to_menu"
-            app:destination="@id/menu" />
+            app:destination="@id/menu"
+            app:enterAnim="@anim/fragment_close_enter"
+            app:exitAnim="@anim/fragment_close_enter"
+            app:popEnterAnim="@anim/fragment_close_enter"
+            app:popExitAnim="@anim/fragment_close_enter" />
         <action
             android:id="@+id/action_login_to_crearCuenta"
             app:destination="@id/crearCuenta" />
@@ -60,7 +64,11 @@
         tools:layout="@layout/fragment_bienvenida" >
         <action
             android:id="@+id/action_bienvenida_to_login2"
-            app:destination="@id/login" />
+            app:destination="@id/login"
+            app:enterAnim="@anim/fragment_close_enter"
+            app:exitAnim="@anim/fragment_close_enter"
+            app:popEnterAnim="@anim/fragment_close_enter"
+            app:popExitAnim="@anim/fragment_close_enter" />
     </fragment>
     <fragment
         android:id="@+id/lightsOut"
