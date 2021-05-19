@@ -31,7 +31,7 @@ public class Login extends Fragment {
         navController = Navigation.findNavController(view);
 
         botonLogin = view.findViewById(R.id.botonlogin);
-        crearCuenta = view.findViewById(R.id.botoncrearcuenta);
+        crearCuenta = view.findViewById(R.id.crearcuenta);
 
         botonLogin.setOnClickListener(view1 -> navController.navigate(R.id.action_login_to_menu));
         crearCuenta.setOnClickListener(view1 -> navController.navigate(R.id.action_login_to_crearCuenta));

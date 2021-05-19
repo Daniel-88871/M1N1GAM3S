@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,11 +15,11 @@ import androidx.navigation.Navigation;
 
 public class Menu extends Fragment {
 
-    Button botonLight;
-    Button botonConecta4;
-    Button botonDamas;
-    Button botonSalir;
-    Button botonRanking;
+    ImageButton botonLight;
+    ImageButton botonConecta4;
+    ImageButton botonDamas;
+    ImageButton botonSalir;
+    ImageButton botonRanking;
     NavController navController;
 
     @Override
