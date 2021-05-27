@@ -36,12 +36,69 @@
         android:id="@+id/botonlightsout"
         android:layout_width="300dp"
         android:layout_height="155dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/light"
         android:text="Light Game!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textojuegos" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Damas chinas"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botondamas" />
+
+    <TextView
+        android:id="@+id/textolightsout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Lights Out! "
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonlightsout" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Conecta 4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonconecta4" />
+
+    <ImageButton
+        android:id="@+id/botonconecta4"
+        android:layout_width="300dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/conecta4"
+        android:text="Conecta4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textolightsout" />
+
+    <ImageButton
+        android:id="@+id/botondamas"
+        android:layout_width="300dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/damas"
+        android:text="Damas chinas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ImageButton
         android:id="@+id/botonranking"
@@ -65,58 +122,5 @@
         app:layout_constraintEnd_toStartOf="@+id/botonranking"
         app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:id="@+id/botonconecta4"
-        android:layout_width="300dp"
-        android:layout_height="155dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/conecta4"
-        android:text="Conecta4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textolightsout" />
-
-    <ImageButton
-        android:id="@+id/botondamas"
-        android:layout_width="300dp"
-        android:layout_height="155dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/damas"
-        android:text="Damas chinas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textolightsout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lights Out! "
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonlightsout" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Conecta 4"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonconecta4" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Damas chinas"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botondamas" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
